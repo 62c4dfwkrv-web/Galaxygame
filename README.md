@@ -1,1 +1,1 @@
-# Galaxygame
+# GalaxyGame
