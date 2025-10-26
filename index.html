@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>GameGalaxy — Грай без меж</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1e1e2f;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #29294d;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #00ffff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .game-card {
+      background-color: #33334d;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .play-button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00ffff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .play-button:hover {
+      background-color: #00cccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 GameGalaxy</h1>
+    <nav>
+      <a href="#">Ігри</a>
+      <a href="#">Стріми</a>
+      <a href="#">Форум</a>
+      <a href="#">Про нас</a>
+    </nav>
+  </header>
+
+  <section class="game-grid">
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA V">
+      <h3>GTA V</h3>
+      <p>Екшн, відкритий світ</p>
+      <button class="play-button">Грати зараз</button>
+    </div>
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Forza_Horizon_5_cover.jpg" alt="Forza Horizon 5">
+      <h3>Forza Horizon 5</h3>
+      <p>Гонки, симулятор</p>
+      <button class="play-button">Грати зараз</button>
+    </div>
+    <div class="game-card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft">
+      <h3>Minecraft</h3>
+      <p>Пісочниця, виживання</p>
+      <button class="play-button">Грати зараз</button>
+    </div>
+  </section>
+</body>
+</html>
